@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-from Subfact_ina219 import INA219
+from raspi_ina219.ina219 import INA219
 
 ina = INA219()
 result = ina.getBusVoltage_V()
