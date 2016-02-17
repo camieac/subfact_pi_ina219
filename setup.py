@@ -1,10 +1,6 @@
 #!/usr/bin/env python
 
 from setuptools import setup
-from setuptools.command.install import install
-from subprocess import check_output, CalledProcessError
-import os
-import sys
 
 requirements = ['smbus-cffi']
 
